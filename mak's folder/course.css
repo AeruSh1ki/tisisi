@@ -1,0 +1,87 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+  background-color: #0b1f3a; /* deep navy */
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #08162a;
+  padding: 15px 20px;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #4da6ff; /* light blue accent */
+}
+
+/* Sections */
+.section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Headings */
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #4da6ff;
+}
+
+h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #66b3ff;
+}
+
+/* Paragraph */
+p {
+  font-size: 16px;
+  color: #d6e6ff;
+}
+
+/* Gallery Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Images */
+.grid img {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #4da6ff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.grid img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(77, 166, 255, 0.5);
+}
+
+/* Careers section styling */
+.section:last-child p {
+  background-color: #08162a;
+  padding: 15px;
+  border-left: 5px solid #4da6ff;
+  border-radius: 5px;
+}
